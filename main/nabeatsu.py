@@ -17,4 +17,3 @@ class Nabeatsu:
         elif str(self.foolish_num) in str(self.num):
             flg = True
         return flg
-
