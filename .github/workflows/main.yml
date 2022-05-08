@@ -37,7 +37,7 @@ jobs:
       # pytest -> JUnit xml形式で結果を出力
       - name: PyTest
         run: |
-          pytest
+          python -m pytest
         continue-on-error: true
 
       # # テスト結果の表示
