@@ -32,7 +32,7 @@ jobs:
       # PYTHONPATHのセット
       - name: Set python path
         run: |
-          export PYTHONPATH="..:$PYTHONPATH"
+          export PYTHONPATH="/home/runner/work/study_pytest/study_pytest/:$PYTHONPATH"
 
       # pytest -> JUnit xml形式で結果を出力
       - name: PyTest
